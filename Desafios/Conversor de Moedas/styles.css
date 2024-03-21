@@ -1,0 +1,55 @@
+main {
+    width: 150px;
+    margin: auto; /* margin with "auto" center the object in the middle of the page?*/
+    border: 5px double black;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;    
+}
+.display {
+    width: 140px;
+    padding: auto;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+.operator{
+    cursor: pointer;
+    background-color: dodgerblue;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+.operator:hover{
+    background-color: rgb(119, 187, 255);
+}
+.number{
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+.number:hover {
+    background-color: rgb(214, 214, 214);
+}
+.c{
+    cursor: pointer;
+    background-color: rgb(255, 78, 78);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+.c:hover{
+    background-color: rgb(255, 135, 119);
+}
+.result{
+    cursor: pointer;
+    background-color: rgb(78, 255, 78);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+.result:hover{
+    background-color: rgb(135, 255, 119);
+}
